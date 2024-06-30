@@ -36,11 +36,8 @@ My Shop is a streamlined Angular application built to jumpstart your e-commerce 
 * Make code changes within the `src` directory.
 * Run unit tests using `ng test`.
 * Build for production with `ng build`.
-
-**Deployment (if applicable)**
-
-* ... (instructions specific to your deployment platform)
-**Contributing (if applicable)**
+  
+**Contributing**
 
 * We welcome contributions! Please follow these guidelines:
    * Fork the repository and create a pull request.
