@@ -1,0 +1,27 @@
+.item{
+    background-color: lightblue;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    text-align: left;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+img{
+    align-content: left;
+    width: 100px;
+    margin: 5px;
+    height: 100px;
+}
+
+p{
+    text-align: left;
+    font-size: large;
+    padding: 10px 20px;
+}
