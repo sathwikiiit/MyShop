@@ -1,0 +1,17 @@
+<div class = "product">
+    <h2>{{product?.Name}}</h2>
+    <img [src]="product.path">
+    <table>
+        <thead><th>Head</th><th>  </th><th>Price</th></thead>
+        <tbody>
+            <tr><td>Product Price</td><td> : </td><td>{{product?.Price | currency:"INR"}}</td></tr>
+            <tr><td>GST</td><td> : </td><td>{{product?.Price*0.06 | currency:"INR"}}</td></tr>
+            <tr><td>Delivery Fee</td><td> : </td><td>{{40 | currency:"INR"}}</td></tr>
+            <tr><td>Total</td><td> : </td><td>{{product?.Price*1.06+40 | currency:"INR"}}</td></tr>
+        </tbody>
+    </table>
+    <div class="buttons">
+        <button (click)="Add(productid)">Add to Cart</button>
+        <button [routerLink]="['/buy', productid]">Buy Now</button>
+    </div>
+</div>

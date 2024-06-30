@@ -1,0 +1,12 @@
+<div class="list">
+    <app-cartitem  *ngFor="let item of items" [item]="item"></app-cartitem>
+</div>
+<form #ngform>
+    <label for="name">Name:</label><input id="name" name="name" type="text" [(ngModel)]="Address.name">
+    <label for="email">Email:</label><input id="email" name="email" type="email" [(ngModel)] ="Address.email">
+    <label for="hno">House No.:</label><input id="hno" name="hno" type="text" [(ngModel)]="Address.hno">    
+    <label for="city">City/Village:</label><input id="city" name="city" type="text" [(ngModel)]="Address.city">
+    <label for="mdl">Mandal:</label><input id="mdl" name="mdl" type="text" [(ngModel)]="Address.mdl">
+    <label for="district">District:</label><input id="district" name="district" type="text" [(ngModel)]="Address.district">
+    <label for="pincode">PinCode:</label><input id="pincode" name="pincode" type="number" [(ngModel)]="Address.pincode" required="true">
+</form>
