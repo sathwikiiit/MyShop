@@ -8,9 +8,6 @@ My Shop is a streamlined Angular application built to jumpstart your e-commerce 
    * Node.js (version 14 or higher) and npm (version 5.6 or higher) installed.
    * Basic understanding of Angular concepts.
 
-2. **Cloning the Repository (if applicable):**
-   * ... (instructions specific to your repository hosting platform)
-
 3. **Installation:**
    * Navigate to the project directory:
      ```bash
@@ -43,18 +40,8 @@ My Shop is a streamlined Angular application built to jumpstart your e-commerce 
 **Deployment (if applicable)**
 
 * ... (instructions specific to your deployment platform)
-
-**License**
-
-* This project is licensed under the MIT License. See the `LICENSE` file for details.
-
 **Contributing (if applicable)**
 
 * We welcome contributions! Please follow these guidelines:
    * Fork the repository and create a pull request.
-   * Ensure code adheres to the project's style guide (if any).
    * Include clear and concise comments in your code.
-
-**Additional Notes**
-
-* ... (Include any further relevant information)
