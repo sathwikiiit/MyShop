@@ -1,0 +1,25 @@
+.head {
+    background-color: blue;
+    height: 60px;
+    display: flex;
+}
+h1{
+    width: 93%;
+    background-color: blue;
+}
+#icon, #cart{
+    height:50px ;
+    padding: 5px;
+}
+p{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+    margin: 4px;
+    border-radius:100% ;
+    background-color: red;
+    text-align: center;
+}

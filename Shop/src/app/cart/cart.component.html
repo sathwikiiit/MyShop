@@ -1,0 +1,7 @@
+<div class="list">
+    <app-cartitem  *ngFor="let item of newitemlist" [item]="item"></app-cartitem>
+</div>
+<div class = "buttons">
+    <button *ngIf="disabled" [routerLink]="['/buy',0]">Buy Now</button>
+    <button *ngIf="disabled">Add More</button>
+</div>

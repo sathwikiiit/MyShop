@@ -1,0 +1,16 @@
+.list, .buttons{
+    width: 60%;
+    margin:0px auto ;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 60%;
+    margin: 2px auto;
+    height: 40px;
+    background-color: darkblue;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+    color: white;
+}

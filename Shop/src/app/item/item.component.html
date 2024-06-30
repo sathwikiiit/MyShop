@@ -1,0 +1,8 @@
+<section class="container">
+    <div class="item">
+        <h2>{{newitem.Name}}</h2>
+        <img [src]="newitem.path">
+        <p>Price: {{newitem.Price | currency : 'INR'}}</p>
+        <button [routerLink]="['/product', newitem.SNo]">Buy</button>
+    </div>
+</section>
