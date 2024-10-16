@@ -32,9 +32,6 @@ My Shop is a streamlined Angular application built to jumpstart your e-commerce 
 
 * The project follows a standard Angular structure:
     * `src`: Contains the source code for components, services, modules, etc.
-    * `assets`: Holds static assets like images, fonts, and styles.
-    * `environments`: Stores environment-specific configuration files.
-    * (Add descriptions for other relevant folders, if any)
 
 **Development**
 
